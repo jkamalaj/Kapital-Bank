@@ -1,0 +1,416 @@
+body {
+  height: 100vh;
+}
+
+.wrapper .info {
+  width: 50%;
+  height: 120px;
+}
+.wrapper .info h1 {
+  font-size: 48px;
+}
+.wrapper .info span {
+  font-size: 15px;
+  color: rgb(115, 112, 112);
+}
+.wrapper .select {
+  margin-top: 30px;
+  width: 45%;
+}
+.wrapper .select ul li button {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+
+.cashback {
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  background-color: whitesmoke;
+}
+.cashback img {
+  width: 300px;
+  height: auto;
+  -webkit-margin-start: 30px;
+          margin-inline-start: 30px;
+  margin-top: 80px;
+}
+.cashback .info-text {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.cashback .info-text i {
+  width: 70px;
+  height: 70px;
+  color: red;
+}
+.cashback .info-text h5 {
+  position: absolute;
+  margin-top: 5px;
+  color: rgb(228, 11, 11);
+}
+.cashback .info-text a {
+  position: absolute;
+  font-size: 32px;
+  color: rgb(41, 41, 41);
+  margin-top: 70px;
+}
+.cashback .info-text .text p {
+  width: 300px;
+  font-size: 20px;
+  margin-top: 160px;
+  justify-content: space-between;
+}
+.cashback .info-text .button {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  height: 80px;
+  position: relative;
+}
+.cashback .info-text .button a {
+  position: absolute;
+  right: 160px;
+  font-size: 20px;
+  bottom: 0px;
+  transform: translateY(-90%);
+}
+.cashback .info-text .button button {
+  position: absolute;
+  left: 5px;
+  width: 280px;
+  height: 60px;
+  font-size: 25px;
+}
+.cashback .info-text .text-info p {
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: 90px;
+  justify-content: space-between;
+  color: rgb(37, 36, 36);
+}
+
+.taksit-kartlar h2 {
+  margin-top: 80px;
+}
+.taksit-kartlar a {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(16, 16, 16);
+  margin-left: 30px;
+}
+.taksit-kartlar .birbank {
+  width: 100%;
+  margin-top: 140px;
+}
+.taksit-kartlar .birbank .birbank-umico {
+  position: relative;
+  width: 350px;
+  height: 270px;
+  background-color: rgb(242, 245, 245);
+  border-radius: 20px;
+}
+.taksit-kartlar .birbank .birbank-umico .image img {
+  margin-left: 30px;
+  width: 240px;
+  height: auto;
+  transform: translateY(-50%);
+}
+.taksit-kartlar .birbank .birbank-umico .image-info {
+  transform: translateY(-40%);
+}
+.taksit-kartlar .birbank .birbank-umico .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.taksit-kartlar .birbank .birbank-cashback {
+  position: relative;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.taksit-kartlar .birbank .birbank-cashback .image img {
+  margin-left: 30px;
+  width: 240px;
+  height: auto;
+  transform: translateY(-50%);
+}
+.taksit-kartlar .birbank .birbank-cashback .image-info {
+  transform: translateY(-40%);
+}
+.taksit-kartlar .birbank .birbank-cashback .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.taksit-kartlar .birbank .birbank-miles {
+  position: relative;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.taksit-kartlar .birbank .birbank-miles .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.taksit-kartlar .birbank .birbank-miles .image-info {
+  transform: translateY(-40%);
+}
+.taksit-kartlar .birbank .birbank-miles .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.taksit-kartlar .birbank-umico-pre {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.taksit-kartlar .birbank-umico-pre .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.taksit-kartlar .birbank-umico-pre .image-info {
+  transform: translateY(-40%);
+}
+.taksit-kartlar .birbank-umico-pre .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.debet-kart h2 {
+  margin-top: 80px;
+}
+.debet-kart a {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(16, 16, 16);
+  margin-left: 30px;
+}
+.debet-kart .birbank-debet {
+  width: 100%;
+  margin-top: 70px;
+}
+.debet-kart .birbank-debet .karts1 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.debet-kart .birbank-debet .karts1 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.debet-kart .birbank-debet .karts1 .image-info {
+  transform: translateY(-40%);
+}
+.debet-kart .birbank-debet .karts1 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.debet-kart .birbank-debet .karts2 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.debet-kart .birbank-debet .karts2 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.debet-kart .birbank-debet .karts2 .image-info {
+  transform: translateY(-40%);
+}
+.debet-kart .birbank-debet .karts2 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.debet-kart .birbank-debet .karts3 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.debet-kart .birbank-debet .karts3 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.debet-kart .birbank-debet .karts3 .image-info {
+  transform: translateY(-40%);
+}
+.debet-kart .birbank-debet .karts3 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.debet-kart .birbank-premium {
+  width: 100%;
+  margin-top: 70px;
+}
+.debet-kart .birbank-premium .karts1 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.debet-kart .birbank-premium .karts1 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.debet-kart .birbank-premium .karts1 .image-info {
+  transform: translateY(-40%);
+}
+.debet-kart .birbank-premium .karts1 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.debet-kart .birbank-premium .karts2 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.debet-kart .birbank-premium .karts2 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.debet-kart .birbank-premium .karts2 .image-info {
+  transform: translateY(-40%);
+}
+.debet-kart .birbank-premium .karts2 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.debet-kart .birbank-premium .karts3 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.debet-kart .birbank-premium .karts3 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.debet-kart .birbank-premium .karts3 .image-info {
+  transform: translateY(-40%);
+}
+.debet-kart .birbank-premium .karts3 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.birbank-platium {
+  width: 100%;
+  margin-top: 70px;
+}
+.birbank-platium a {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(16, 16, 16);
+  margin-left: 30px;
+}
+.birbank-platium .karts1 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.birbank-platium .karts1 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.birbank-platium .karts1 .image-info {
+  transform: translateY(-40%);
+}
+.birbank-platium .karts1 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.birbank-platium .karts2 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.birbank-platium .karts2 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.birbank-platium .karts2 .image-info {
+  transform: translateY(-40%);
+}
+.birbank-platium .karts2 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.birbank-platium .karts3 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgb(242, 245, 245);
+}
+.birbank-platium .karts3 .image img {
+  width: 240px;
+  height: auto;
+  margin-left: 30px;
+  transform: translateY(-50%);
+}
+.birbank-platium .karts3 .image-info {
+  transform: translateY(-40%);
+}
+.birbank-platium .karts3 .image-info a {
+  font-size: 23px;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */
